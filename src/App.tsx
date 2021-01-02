@@ -68,7 +68,7 @@ function App(): JSX.Element {
                       onClick={() => toggleDoneTask(i)}
                       className="btn btn-secondary"
                     >
-                      {t.done ? "✓" : "✗"}
+                      {t.done ? "✗" : "✓"}
                     </button>
                     <button
                       onClick={() => removeTask(i)}

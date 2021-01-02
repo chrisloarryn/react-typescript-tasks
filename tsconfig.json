@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "paths": {
-      "App": ["src/App"]
-    },
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -18,6 +19,10 @@
     "noEmit": true,
     "jsx": "react"
   },
-  "include": ["src"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
